@@ -17,9 +17,9 @@ router.get('/:id', async (req, res) => {
   const tagData = await Tag.findAll (
     {
       where: {id: req.params.id},
-      // include: [
-      //   {model: Product},
-      // ]
+      include: [
+        {model: Product},
+      ]
     }
   );
   return res.json(tagData);
