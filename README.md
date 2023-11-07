@@ -5,7 +5,7 @@
 
 ## Description
 
-This application can be used to build the backend of an onllne storefront with the ability to creat, read, update, and delete products, categories and tags.
+This application can be used to build the backend of an onllne storefront with the ability to create, read, update, and delete products, categories and tags.
 
 
 ## Table of Contents
@@ -45,11 +45,13 @@ The cloned repository does not include the node_module folder containing the Dot
 
 To start using, open a terminal in the repository within Visual Studio Code. Enter `mysql -u root -p` and input the MySql Server password. Follow by entering `source db/schema.sql` 
 
+![Running source db/schema.sql in Visual Studio Code terminal](./assets/challenge-13-source-schema.png)
+
 Follow by opening a new GitBash and enter `npm run seed`, then enter `npm start`.
 
 Next, open up the Insomnia program and create a New Request using `http://localhost.3001/api/products` to view all products. Additional requests will be shown in the walkthrough video below.
 
-[Video Walkthrough of Ecommerical Back End]()
+[Video Walkthrough of Ecommerical Back End](https://drive.google.com/file/d/1VH4dOrTxOJBnw5fmjmIdZ2V09koc0YFj/view?usp=sharing)
 
 
 ## Contributions
