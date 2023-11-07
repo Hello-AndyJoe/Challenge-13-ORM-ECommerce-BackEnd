@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Product data
   try {
     const tagData = await Tag.findAll(
-      {include: [Product]}
+      {include:[{model: Product, attributes: ["product_name"]}]}
     );
     return res.json(tagData);
   } catch (error) {
@@ -23,9 +23,7 @@ router.get('/:id', async (req, res) => {
     const tagData = await Tag.findOne (
       {
         where: {id: req.params.id},
-        include: [
-          Product
-        ]
+        include:[{model: Product, attributes: ["product_name"]}]
       }
     );
     return res.json(tagData);
