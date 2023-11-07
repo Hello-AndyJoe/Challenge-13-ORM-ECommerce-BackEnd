@@ -23,7 +23,7 @@ This application can be used to build the backend of an onllne storefront with t
 
 [Instructions for installing MySql Server](https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide)
 
-[Insomnia](https://insomnia.rest/download) also must be installed for the purposes of demostrating this application. 
+[Insomnia](https://insomnia.rest/download) also must be installed for the purposes of demonstrating this application. 
 
 Once the required software has been successfully installed on the computer, clone this GitHub repository to a desired folder on the computer.
 
